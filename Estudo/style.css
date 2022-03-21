@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul{
+    
+    padding: 10px;
+}
+
+#menu{
+    background-color: rgb(170, 170, 170);
+
+}
+
+#menu ul li{
+    display: inline;
+    padding: 10px;
+    margin-left: 100px;
+    
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#menu ul :hover{
+    background-color: rgb(133, 130, 130);
+    color: aliceblue;
+    transition: 0.3s;
+}
+.titulo{
+    font-family: 'League Gothic', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 3px 3px rgb(33, 29, 241);
+   
+}
+
+.exemplo{
+    font-family: 'League Gothic', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
